@@ -22,7 +22,7 @@ static class Program
         
             {
                 // Add a new random object to the screen every iteration of our game loop
-                var whichType = Random.Next(80);
+                ///var whichType = Random.Next(8);
 
                 // Generate a random velocity for this object
                 var randomY = Random.Next(-2, 2);
@@ -47,7 +47,7 @@ static class Program
                 Raylib.BeginDrawing();
                 Raylib.ClearBackground(Color.BLACK);
 
-                Raylib.DrawText("Move your red square to the other squares to get points avoid circles!", 12, 24, 20, Color.WHITE);
+                Raylib.DrawText("Move your red square to the circles to get points avoid squares!", 12, 24, 20, Color.WHITE);
                 
 
                 foreach (var obj in Objects){
@@ -82,7 +82,9 @@ static class Program
                 if (Raylib.CheckCollisionCircleRec(position2, 5, PlayerRectangle)) {
                     Score += 1;
                 }
-               
+//                if (Raylib.CheckCollisionRecs(square, PlayerRectangle)){
+  //                  Score -= 1;
+    //            }
                 
                 Raylib.DrawText($"Score: {Score}", 12, 40, 20, Color.WHITE);
                 Raylib.EndDrawing();

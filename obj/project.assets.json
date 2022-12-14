@@ -128,11 +128,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\camdo\\OneDrive\\Documents\\Space game code\\Space game code.csproj",
+      "projectUniqueName": "C:\\Users\\camdo\\OneDrive\\Documents\\greed\\Space game code.csproj",
       "projectName": "Space game code",
-      "projectPath": "C:\\Users\\camdo\\OneDrive\\Documents\\Space game code\\Space game code.csproj",
+      "projectPath": "C:\\Users\\camdo\\OneDrive\\Documents\\greed\\Space game code.csproj",
       "packagesPath": "C:\\Users\\camdo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\camdo\\OneDrive\\Documents\\Space game code\\obj\\",
+      "outputPath": "C:\\Users\\camdo\\OneDrive\\Documents\\greed\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\camdo\\AppData\\Roaming\\NuGet\\NuGet.Config"
